@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter p{
+  font-size: 8.5em;
+}
+
+.judul {
+  margin-top: 20px;
+  font-size: 3em;
+  font-weight: bolder;
+  background-color: hsl(0, 0%, 10%);
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.tombolan{
+  display: flex;
+  border: 0;
+  justify-content: center;
+  background-color: hsl(0, 0%, 10%);
+  padding: 5px;
+  border-radius: 20px;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.tombolan button:hover{
+  border: solid 3px hsl(258, 39%, 67%);
+}
+
+.tombolan button:active{
+  background-color: hsl(0, 0%, 31%);
+}
+
+.tombolan button{
+  border: 0;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+.tombolan .reset{
+  width: fit-content;
+  height: 60px;
+  border-radius: 50px;
+}
+
